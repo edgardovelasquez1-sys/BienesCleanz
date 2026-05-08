@@ -1,0 +1,32 @@
+librerias bienes cleanz
+
+1. Librerías de Interfaz y Diseño (GUI)
+Son las encargadas de que el sistema se vea moderno y sea interactivo.
+
+tkinter: Es la librería base para crear la ventana y los widgets estándar (como la tabla Treeview de la vista de consulta).
+
+customtkinter: Es la evolución moderna de tkinter que utilizas para los botones redondeados, el diseño de los formularios y los colores institucionales del CLEANZ.
+
+Pillow (PIL): Fundamental para que el sistema pueda abrir, redimensionar y mostrar el logo institucional (cleanz logo.jpg) y el banner en los reportes.
+
+2. Librerías de Datos y Conectividad
+Permiten que la información no se pierda y se guarde de forma permanente.
+
+mysql-connector-python: Es el controlador que permite que Python envíe los datos del formulario a tu base de datos en MySQL (XAMPP).
+
+openpyxl: La herramienta específica que permite crear el archivo .xlsx cuando presionas el botón de "Exportar Excel".
+
+3. Librerías de Reportes y Utilidades
+Encargadas de la salida de documentos oficiales y funciones lógicas.
+
+reportlab: Se utiliza para construir el archivo PDF desde cero, permitiendo dibujar las líneas de firma, el encabezado del CLEANZ y la tabla de activos.
+
+datetime: Librería interna de Python que usamos para que el reloj del encabezado siempre esté actualizado y para marcar la fecha de registro de los bienes.
+
+os: Se encarga de gestionar las rutas de los archivos en tu computadora para asegurar que el programa encuentre las imágenes sin importar en qué carpeta lo guardes.
+
+------------------------------------------------------------------------------------------------------------------------------------------
+Si vas a pasar el proyecto a otra computadora del Consejo Legislativo, abre una terminal y ejecuta este comando único para instalar las librerías externas:
+
+Bash
+pip install customtkinter mysql-connector-python Pillow openpyxl reportla
